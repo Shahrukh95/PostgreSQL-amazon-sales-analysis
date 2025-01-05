@@ -23,4 +23,4 @@ python manage.py runserver
 If you would like to contribute to the project, please fork the repository and submit a pull request.
 
 
-[amazon-products-dataset]: [https://www.kaggle.com/datasets/aaronfriasr/amazon-products-dataset?select=amazon_categories.csv]
+[amazon-products-dataset]: https://www.kaggle.com/datasets/aaronfriasr/amazon-products-dataset?select=amazon_categories.csv
