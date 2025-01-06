@@ -5,19 +5,36 @@ This project is an analysis of an ecommerce dataset built with Mockaroo and [Ama
 
 ## Features
 - 1000 Products
-- Product browsing
-- Shopping cart
-- Order management
+- 400 Customers
+- 1200 Orders
+- Other details 
 
 ## Installation
-To install the project, simply clone the repository.
+To install the project, clone the repository and perform the following steps:
+
+To build the dataset, first create a database with any name of your choice:
+```
+CREATE DATABASE amazon_sales;
+```
+
+Create tables using the 'products.sql' file in the '/data' folder. In Postgresql run:
+```
+\i {file_path}/products.sql
+```
+
+This will create all the tables with the required constraints. To populate the tables, refer to the csv files in the '/data' folder. Use the 'copy' command in postgresql to insert data into the tables f.e.
+```
+copy payments (payment_id,payment_method,order_id,amount_paid) from '{file_path}/payments.csv' with (FORMAT csv, HEADER true);
+```
+Repeat this step for all the csv files.
 
 ## Usage
-To run the project, use the following command:
+
+<!-- To see the analytics, run the following queries:
 
 ```bash
 python manage.py runserver
-```
+``` -->
 
 ## Contributing
 If you would like to contribute to the project, please fork the repository and submit a pull request.
