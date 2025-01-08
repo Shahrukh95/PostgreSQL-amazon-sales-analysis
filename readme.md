@@ -1,18 +1,18 @@
 # Ecommerce Project
 
 ## Introduction
-This project is an analysis of an ecommerce dataset built with Mockaroo and [Amazon Products Dataset][amazon-products-dataset]. Data was pre-processed and cleaned in Python, and the analysis was performed in PostgreSQL.
+This project is an analysis of an ecommerce dataset built with Mockaroo and [Amazon Products Dataset][amazon-products-dataset]. Data was pre-processed and cleaned in Python ('data_generator.ipynb'), and the analysis was performed in PostgreSQL.
 
 ## Features
 - 1000 Products
 - 400 Customers
 - 1200 Orders
-- Other details 
+- Other details  
 
 ## Installation
 To install the project, clone the repository and perform the following steps:
 
-To build the dataset, first create a database with any name of your choice:
+To build the dataset, first create a database with any name:
 ```
 CREATE DATABASE amazon_sales;
 ```
@@ -30,11 +30,8 @@ Repeat this step for all the csv files.
 
 ## Usage
 
-<!-- To see the analytics, run the following queries:
-
-```bash
-python manage.py runserver
-``` -->
+Queries for analytics are given in the 'analytics.sql' file with outputs.
+An ERD diagram is available as pdf.
 
 ## Contributing
 If you would like to contribute to the project, please fork the repository and submit a pull request.
