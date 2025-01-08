@@ -1,4 +1,4 @@
-# Ecommerce Project
+# Amazon Sales Analysis
 
 ## Introduction
 This project is an analysis of an ecommerce dataset built with Mockaroo and [Amazon Products Dataset][amazon-products-dataset]. Data was pre-processed and cleaned in Python ('data_generator.ipynb'), and the analysis was performed in PostgreSQL.
