@@ -7,7 +7,9 @@ This project is an analysis of an ecommerce dataset built with Mockaroo and [Ama
 - 1000 Products
 - 400 Customers
 - 1200 Orders
-- Other details  
+- Other details
+
+The ERD diagram is available in the 'ERD.pdf' file.
 
 ## Installation
 To install the project, clone the repository and perform the following steps:
@@ -30,8 +32,7 @@ Repeat this step for all the csv files.
 
 ## Usage
 
-Queries for analytics are given in the 'analytics.sql' file with outputs.
-An ERD diagram is available as pdf.
+Queries for analytics are written in the 'analytics.sql' file with outputs.
 
 ## Contributing
 If you would like to contribute to the project, please fork the repository and submit a pull request.
